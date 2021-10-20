@@ -15,3 +15,10 @@ pip install --upgrade pip
 pip install -r requirements.txt
 python -m app.index
 ```
+
+
+## Docker run
+```sh
+docker build your-image-name .
+docker run -p 5000:5000 your-image-name
+```
